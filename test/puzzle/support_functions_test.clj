@@ -2,7 +2,25 @@
   (:require [clojure.test :refer :all]
             [puzzle.support-functions :refer :all]))
 
-(def puzzleTestData '(199 200 208 210 200 207 240 269 260 263))
 
-(deftest loadData-test
-  (is (= puzzleTestData (loadData "resources/puzzleTestInput.txt"))))
+
+
+(def puzzleTestData '(1000
+2000
+3000
+
+4000
+
+5000
+6000
+
+7000
+8000
+9000
+
+10000))
+
+
+
+;; (deftest loadData-test
+;;   (is (= puzzleTestData (loadData "resources/puzzleTestInput.txt"))))
